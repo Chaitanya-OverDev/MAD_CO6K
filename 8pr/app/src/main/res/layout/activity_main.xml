@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/u" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Username" />
+    <EditText android:id="@+id/p" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Password" android:inputType="textPassword" />
+
+    <RadioGroup android:id="@+id/rg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
+        <RadioButton android:id="@+id/r1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Male" />
+        <RadioButton android:id="@+id/r2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Female" />
+    </RadioGroup>
+
+    <CheckBox android:id="@+id/c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Remember Me" />
+    <Button android:id="@+id/b" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Login" android:enabled="false" />
+    <ProgressBar android:id="@+id/pb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:visibility="gone" />
+
+</LinearLayout>

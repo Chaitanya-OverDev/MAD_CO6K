@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button android:id="@+id/bSilent" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="SILENT MODE" />
+    <Button android:id="@+id/bLoud" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="LOUD MODE" />
+
+    <TextView android:id="@+id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:textSize="20sp" android:text="Waiting for Broadcast..." android:textStyle="bold" android:textAlignment="center" />
+
+</LinearLayout>
